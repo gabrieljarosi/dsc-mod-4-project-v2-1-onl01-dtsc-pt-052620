@@ -149,9 +149,9 @@ A wine expert was consulted and stated that wines start to standout from the res
 
 <font size= 4>**Conclusion**</font>
 
-1. Using Deep NLP modeling techiniques, a (...%) accuracy in distinguishing low quality wines from high quality wines based on professional reviews was achieved. The model had a () recall in correctly classifying low quality wines and () recall in correctly classifying high quality wines.
+1. Using Deep NLP modeling techiniques, a 86.24% accuracy in distinguishing low quality wines from high quality wines based on professional reviews was achieved. The model had a 88% recall in correctly classifying low quality wines and 84% recall in correctly classifying high quality wines.
 
-(INSERT CONFUSION MATRIX OF BEST MODEL HERE)
+![graph6](./images/best_cm.png)
 
 
 2. Since CNNs are considered black box models, meaning that they have a low interpretability due to their high dimensionality, no direct conclusions were drawn from them. Conclusion were drawn from a slightly simpler model, Random Forest. Using the LIME Text Explainer tool, I was able to determine which were the key features that distinguished low and high quality wines. 
