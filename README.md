@@ -1,6 +1,6 @@
-<font size= 6> **Determining best features in wines**</font>
+# Determining best features in wines
 
-<font size= 5>**Analyzing expert wine reviews using NLP methods**</font>
+## Analyzing expert wine reviews using NLP methods
 
 **Author:** Gabriel J. Araujo
 
@@ -178,7 +178,7 @@ A wine expert was consulted and stated that wines start to standout from the res
 3. This is very difficult to determine. It is all dependent on your task and dataset. For ensemble methods, such as Random Forest, the grid search model determined that it is not good to apply too much preprocessing to the data, but that may not be always the case. <br/><br/>
 For Deep NLP, it is always good to be as simple as possible with the preprocessing, that is why simple_process was used. CNN models can learn the meaning of words through embeddings and stopwords can give context. <br/><br/>
 In order to analyze the results, it's better to use a Tree Model because tools like LIME Text Explainer and SHAP can be used.  <br/><br/>     
-If the goal is to produce a model with a high accuracy, it's worth looking at CNNs. A major downside is that they are extremely computationally expensive, as seen by the comparison between the Random Forest model, with a run time of 42 seconds and Sequential model using keras with a run time of () minutes.
+If the goal is to produce a model with a high accuracy, it's worth looking at CNNs. A major downside is that they are extremely computationally expensive, as seen by the comparison between the Random Forest model, with a run time of 42 seconds and Sequential model using keras with a run time of 47 minutes.
 
 <font size= 3>**Future Work**</font>
 
